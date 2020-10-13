@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: o;
+    background-color: #ccc !important;
+    color: #fff !important;
+}
+.Music-container{
+    font-family:  sans-serif;
+    width: 350px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(#6c6cff,#6b3636);
+    
+}
+.Music-header{
+    height: 50%;
+    width: 100%;
+    border-bottom: 1PX solid 555;
+    background-image: linear-gradient(#6B3636,#6C6CFF);
+}
+.Music-header.fa-angle-left{
+    float: left;
+    margin-top: 15PX;
+    margin-left: 10PX;
+    cursor: pointer;
+}
+.Music-header.fa-search{
+    float: right;
+    margin-top: 15PX;
+    margin-right: 10PX;
+    cursor: pointer;
+}
+.Music-header.title{
+   width: 250px;
+   height: 30px;
+   position: absolute;
+   margin-left: 30px;
+   margin-top: 10px;
+   text-align: center;
+   padding-left: 10px;
+}
+.music-playlist{
+    width: 100%;
+    height: 450%;
+}
+.music-menu
+{
+    width: 100%;
+    height:28%;
+}
+.menu{
+    width: 275px;
+    height: 16px;
+    margin: 15px 30px auto;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+ul
+{font-size: 10px;
+    padding: initial;
+}
+
+    ul li {
+list-style-type: none;
+display:inline-block ; 
+border-right: 1px solid #fff; 
+}
+ul li a{
+    color: #fff;
+    padding: 5px 15px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
